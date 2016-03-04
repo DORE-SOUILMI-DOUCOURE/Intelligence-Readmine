@@ -16,7 +16,7 @@ app = Flask(__name__, static_folder='', static_url_path='')
 currentAppDir = os.path.dirname(__file__)
 from redmine.exceptions import AuthError
 import logging
-REDMINE_SERVER_URL="http://192.168.1.49:8080"
+REDMINE_SERVER_URL="http://127.0.0.1:8080"
 
 ID_NONTRAITE=1
 ID_TRAITE=2
